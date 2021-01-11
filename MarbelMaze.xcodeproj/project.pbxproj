@@ -9,23 +9,23 @@
 /* Begin PBXBuildFile section */
 		43541BB025AA218A00D4B454 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43541BAF25AA218A00D4B454 /* AppDelegate.swift */; };
 		43541BB225AA218A00D4B454 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 43541BB125AA218A00D4B454 /* GameScene.sks */; };
-		43541BB425AA218A00D4B454 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 43541BB325AA218A00D4B454 /* Actions.sks */; };
 		43541BB625AA218A00D4B454 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43541BB525AA218A00D4B454 /* GameScene.swift */; };
 		43541BB825AA218A00D4B454 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43541BB725AA218A00D4B454 /* GameViewController.swift */; };
 		43541BBB25AA218A00D4B454 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43541BB925AA218A00D4B454 /* Main.storyboard */; };
 		43541BBD25AA218C00D4B454 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43541BBC25AA218C00D4B454 /* Assets.xcassets */; };
+		43541BC725AA225400D4B454 /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 43541BC625AA225400D4B454 /* level1.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		43541BAC25AA218A00D4B454 /* MarbelMaze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarbelMaze.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43541BAF25AA218A00D4B454 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		43541BB125AA218A00D4B454 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		43541BB325AA218A00D4B454 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		43541BB525AA218A00D4B454 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		43541BB725AA218A00D4B454 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		43541BBA25AA218A00D4B454 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		43541BBC25AA218C00D4B454 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43541BBE25AA218C00D4B454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43541BC625AA225400D4B454 /* level1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level1.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +60,12 @@
 			children = (
 				43541BAF25AA218A00D4B454 /* AppDelegate.swift */,
 				43541BB125AA218A00D4B454 /* GameScene.sks */,
-				43541BB325AA218A00D4B454 /* Actions.sks */,
 				43541BB525AA218A00D4B454 /* GameScene.swift */,
 				43541BB725AA218A00D4B454 /* GameViewController.swift */,
 				43541BB925AA218A00D4B454 /* Main.storyboard */,
 				43541BBC25AA218C00D4B454 /* Assets.xcassets */,
 				43541BBE25AA218C00D4B454 /* Info.plist */,
+				43541BC625AA225400D4B454 /* level1.txt */,
 			);
 			path = MarbelMaze;
 			sourceTree = "<group>";
@@ -128,9 +128,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				43541BBB25AA218A00D4B454 /* Main.storyboard in Resources */,
+				43541BC725AA225400D4B454 /* level1.txt in Resources */,
 				43541BB225AA218A00D4B454 /* GameScene.sks in Resources */,
 				43541BBD25AA218C00D4B454 /* Assets.xcassets in Resources */,
-				43541BB425AA218A00D4B454 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +291,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = talspektor.MarbelMaze;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -309,7 +309,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = talspektor.MarbelMaze;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
